@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">102,935</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ifocus.automation.Testscripts.MobileTest</td><td><a href="#m0">MinimizeVoot</a></td><td rowspan="1">1487229864004</td><td rowspan="1">98085</td></tr></tbody></table><h2>Test</h2><h3 id="m0">com.ifocus.automation.Testscripts.MobileTest#MinimizeVoot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;IFOCUSODC-PC34&apos;, ip: &apos;192.168.1.140&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tv.v18.viola, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=42f7d716e8819fff, platform=LINUX, appActivity=com.tv.v18.viola.activities.VIOSplashScreenActivity, desired={appPackage=com.tv.v18.viola, appActivity=com.tv.v18.viola.activities.VIOSplashScreenActivity, BROWSER_NAME=Android, VERSION=4.4, platformName=Android, deviceName=Note2}, platformVersion=4.4.2, BROWSER_NAME=Android, webStorageEnabled=false, locationContextEnabled=false, VERSION=4.4, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d9584e64-f19d-4541-8ee0-ba1f0e3f1eda
+*** Element info: {Using=class name, value=android.view.View}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:112)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.ifocus.automation.Utilities.Utilities.pauseVideo(Utilities.java:180)
+	at com.ifocus.automation.Pages.HomePage.minimize(HomePage.java:119)
+	at com.ifocus.automation.Testscripts.MobileTest.MinimizeVoot(MobileTest.java:66)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

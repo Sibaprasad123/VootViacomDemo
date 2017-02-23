@@ -1,0 +1,29 @@
+14/02/2017   14:50:33   VootLogger 
+***********************************EXECUTION STARTS**********************************
+14/02/2017   14:50:33   VootLogger 
+***********************************EXECUTION STARTS**********************************
+14/02/2017   14:50:36   VootLogger 
+**********TEST --> MinimizeVoot :STARTED ***********
+14/02/2017   14:50:36   VootLogger 
+**********TEST --> MinimizeVoot :STARTED ***********
+14/02/2017   14:50:45   VootLogger Voot app launched successfully in mobile
+14/02/2017   14:50:56   VootLogger  Login to Voot starts now
+14/02/2017   14:51:20   VootLogger Logged into Voot successfully
+14/02/2017   14:51:22   VootLogger playing the featured video in voot
+14/02/2017   14:51:44   VootLogger Tap to dismiss button is not displayed
+14/02/2017   14:52:31   VootLogger Video is paused now
+14/02/2017   14:52:39   VootLogger Voot app is minimized in the mobile
+14/02/2017   14:52:50   VootLogger Voot app is resumed in the mobile
+14/02/2017   14:53:03   VootLogger Video is resumed now
+14/02/2017   14:53:11   VootLogger Voot app is minimized in the mobile
+14/02/2017   14:53:22   VootLogger Voot app is resumed in the mobile
+14/02/2017   14:53:32   VootLogger Video is closed now
+14/02/2017   14:53:55   VootLogger successfully logged out from Voot App
+14/02/2017   14:54:00   VootLogger 
+***********TEST --> MinimizeVoot :PASSED **************
+14/02/2017   14:54:00   VootLogger 
+***********TEST --> MinimizeVoot :PASSED **************
+14/02/2017   14:54:01   VootLogger 
+***********************************EXECUTION ENDS**********************************
+14/02/2017   14:54:01   VootLogger 
+***********************************EXECUTION ENDS**********************************
